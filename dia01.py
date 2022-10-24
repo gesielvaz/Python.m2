@@ -38,7 +38,7 @@ def Atv03():
     return 
  
 def Atv4():
-    for i in range(-10,0):
+    for i in range(10,-1,-1):
         print(i)
         time.sleep(1)
     print("""
@@ -69,5 +69,5 @@ def Atv6():
          print("{} é Impar".format(numero))
     return
         
-Atv6()
+Atv4()
     
