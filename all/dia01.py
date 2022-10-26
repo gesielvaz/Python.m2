@@ -105,23 +105,26 @@ def Atv9():
     
         return
     
-def Atv10():
-    dados = []
+''' def Atv10():
     soma = 0
+    maioridadehomen = 0
+    nomevelho = ""
+    totalmulher = 0
     for i  in range(1,4):
         nome  = str(input("Nome: "))
         idade = int(input("Idade: "))
         sexo  = str(input("Sexo[M/F]: ")).strip()
         soma += idade
-    print (soma)
-    print("A media das idade é de {} anos ".format(int(soma/3)))
-        
+    if i == 1 and sexo in "Mn":
+        maioridadehomen = idade
+        nomevelho = nome
+    if sexo in "Mm" and idade > maioridadehomen:
+        maioridadehomen = idade
+        nomevelho = nome
+    maioridade = soma /4
+    print("A media de idades é {}".format(soma/4))
+    print("O homen mais velho é {} e tem {}".format(nomevelho,maioridade)) '''
         #aqui ja deu a media 
     
         #Falta o nome do homen mais velho
         #quantas mulheres tem mais de 20 anos 
-    if sexo == "m":
-        dados=[nome,idade]
-    
-
-Atv10()
